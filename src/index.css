@@ -1,0 +1,142 @@
+body {
+  margin: 100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#hook{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+#hook2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+#thesis{
+  padding-top: 100px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+#contact{
+  padding-bottom: 100px;
+}
+
+#demo{
+  background-color: #bf3f3e;
+  color: white;
+  text-align: center;
+}
+
+.navbar_header{
+  display: flex;
+  flex-direction: row;
+}
+
+.opener{
+  height: 100vh;
+}
+
+.borders{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.top{
+  padding-top: 50px;
+}
+
+.invite{
+  padding-top: 23%;
+  padding-bottom: 20px;
+}
+
+.thick{
+  padding-top: 8%;
+  padding-bottom: 15%;
+  text-align: center;
+}
+
+.thick2{
+  padding-top: 8%;
+  padding-bottom: 15%;
+  text-align: left;
+}
+
+.mid{
+  position: relative;
+  text-align: right;
+  top: 30%;
+}
+
+.invite2{
+  padding-bottom: 20px;
+}
+
+.thanks{
+  color: red;
+  text-align: center;
+}
+
+.loginBtn{
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 510px) {
+
+  #hook{
+    display:  flex;
+    flex-direction: column-reverse;
+  }
+
+  #hook2{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #space{
+    padding-top: 50px;
+  }
+
+  #split{
+    padding-top: 40px;
+  }
+
+  .navbar_header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header{
+    text-align: center;
+  }
+
+  .opener{
+    width: 100%;
+  }
+
+  .loginBtn{
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+
+}
